@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    background-color:rgb(26, 26, 112);
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(16, 16, 82);
+}
+h1{
+    font-weight: 800;
+}
+main{
+    margin: 50px auto 0 auto ;
+    width: fit-content;
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 17px;
+    font-size: 95%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(16, 16, 82, 0.3);
+    padding: 3px 5px 50px 5px;
+    border: 2px solid rgb(16, 16, 82);
+    border-radius: 15px;
+}
+img{
+    position: relative;
+    bottom: 0;
+    margin: 0 auto;
+    max-width: 30vw;
+    height: 300px;
+}
+a{
+    color: gray;
+}
+footer{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(16, 16, 82);
+    display: flex;
+}
+footer p{
+    width: 50%;
+}
+.server{
+    padding-left: 30px;
+}
+.author{
+    padding-right: 30px;
+    text-align: right;
+}
